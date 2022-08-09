@@ -59,4 +59,6 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+    implementation project(':wytoast')
+//    implementation 'com.github.sunshinenote:wy_toast:v1.0.0'
 }
